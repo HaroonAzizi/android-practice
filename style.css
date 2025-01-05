@@ -27,10 +27,8 @@ h1 {
   color: #ff9e43;
   margin-bottom: 20px;
 }
-
 h3 a {
-  font-size: 1.4rem;
-  color: #a05108;
+  color: #975619;
   margin-bottom: 20px;
 }
 
@@ -40,7 +38,6 @@ h3 a {
   white-space: pre-wrap;
   color: #ffffff;
 }
-
 code {
   background-color: #282c34;
   color: #61dafb;
@@ -53,4 +50,20 @@ pre code {
   display: block;
   padding: 10px;
   overflow-x: auto;
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #markdown-preview {
+    font-size: 1.7rem;
+  }
 }
