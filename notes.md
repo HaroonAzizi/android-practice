@@ -411,3 +411,7 @@ Then you need to have a SQLite object:
 SQLiteDatabase db = this.getWritableDatabase
 ContentValues cv = new ContentValues
 ```
+
+(end of the notes)
+
+Written by [Haroon Azizi](https://x.com/az_haroon)
